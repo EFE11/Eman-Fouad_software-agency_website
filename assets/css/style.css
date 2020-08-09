@@ -1,0 +1,496 @@
+/* General */
+body{
+    font-family: 'Cairo', sans-serif;
+    height: 1000px;
+}
+a , a:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: #233142;
+    text-align: center;
+    position: relative;
+}
+h2::after{
+    content: ' ';
+    width: 4.5rem;
+    height: 2px;
+    background-color: #3AADE6;
+    position: absolute;
+    top:58px;
+    left:46.5%;
+}
+@media (max-width: 575.98px) {
+    h2::after{
+        left:43.5%;
+    }
+ }
+/* Owl Carousel */
+.owl-nav{
+    text-align: center;
+}
+.owl-nav .owl-prev {
+    font-size: 2.2rem !important;
+    color: #000 !important;
+    margin-left: 1.8rem;
+}
+.owl-nav .owl-next{
+    font-size: 2.2rem !important;
+    color: #000 !important;
+}
+.owl-nav .owl-prev:focus , .owl-nav .owl-next:focus{
+    outline: none;
+}
+
+/* Start navbar */
+nav .navbar-brand img{
+    height: 60px;
+}
+nav .nav-item{
+    text-align: left;
+}
+nav .navbar-toggler{
+    border: none;
+}
+nav .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(58, 173, 230, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+nav .navbar-toggler:focus{
+    outline: none;
+}
+/* End navbar */
+
+/* Start main section */
+main .intro-img img{
+    width: 100%;
+    height: 100%;
+    padding: 2em 0;
+}
+main .content{
+    background-image: url("../Images/header-side.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+main .content h1{
+    margin-top: 10rem;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #233142;
+}
+/* End main section */
+
+/* Start About us section */
+.about-us{
+    margin-top: 2rem;
+}
+.about-us .about-img img{
+    width: 80%;
+    margin-top: 2rem;
+}
+.about-us .about-content p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #233142;
+    margin-top: 5rem;
+}
+/* End About us section */
+
+/* Start services */
+.services{
+    margin-top: 4rem;
+}
+.services .services-bg{
+    margin-top: 4rem;
+    background-image: url("../Images/we-offer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.services .services-bg .card{
+    border-radius: 1rem;
+    padding-top: 2rem ;
+    text-align: center;
+    margin: 4rem auto 1rem;
+}
+.services .services-bg .card img{
+    width: 50%;
+    margin: 0 auto;
+}
+.services .services-bg .card .card-body .service-title{
+    font-size: 1rem;
+    color: #3AADE6;
+}
+.services .services-bg .card .card-body .card-text{
+    font-size: 1rem;
+    color: #233142;
+}
+/* End services */
+
+/* Start our works */
+.our-works{
+    margin-top: 4rem;
+}
+.our-works .our-works-bg{
+    margin-top: 4rem;
+    background-image: url("../Images/bg30-Ar1web.gif"); 
+}
+.our-works .our-works-card{
+    box-shadow: 4px 4px 10px #888;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 1.5rem;
+    margin: 3.5rem auto 1.5rem;
+}
+.our-works .our-works-card img{
+    border-radius: 1.5rem;
+}
+.our-works .our-works-card .card-body .our-works-title{
+    font-size: 1rem;
+    color: #233142;
+    text-align: center;
+}
+.our-works .see-more{
+    margin-bottom: 4rem;
+}
+.our-works .see-more .our-works-btn{
+    background-color: #233142;
+    padding: 0.8rem 3rem;
+    border-radius: 3rem;
+    color: #fff;
+}
+.our-works .our-works-bg .see-more .our-works-btn:hover{
+    opacity: 0.9;
+}
+/* End our works */
+
+/* Start articles */
+.articles{
+    margin-top: 3rem;
+}
+.articles .articles-card{
+    box-shadow: 4px 4px 8px #888;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 1.5rem;
+    margin: 0 auto 2rem;
+}
+.articles .articles-card img{
+    border-radius: 1.5rem;
+}
+.articles .articles-card .card-body .card-text{
+    color: #233142;
+}
+.articles .articles-card .card-body .details{
+    display: flex;
+    justify-content: space-between;
+}
+.articles .articles-card .card-body .details .view{
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.articles .articles-card .card-body .details .view i{
+   margin-right: 0.3rem;
+}
+.articles .articles-card .card-body .articles-btn{
+    color: #fff;
+    background-color: #233142;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 0.8rem;
+}
+.articles .articles-card .card-body .articles-btn:hover{
+  opacity: 0.9;
+}
+.articles .view-articles{
+    margin-top: 2rem;
+}
+.articles .view-articles .more-btn{
+    background-color: #233142;
+    padding: 0.8rem 4.5rem;
+    border-radius: 3rem;
+    color: #fff;
+}
+.articles .view-articles .more-btn:hover{
+ opacity: 0.9;
+}
+/* End articles */
+
+/* Start clients */
+.clients{
+    margin-top: 3rem;
+}
+.clients .clients-bg{
+    margin-top: 4rem;
+    background-image: url("../Images/our-client-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+.clients .clients-bg img{
+    width: 55%;
+    margin: 0 auto;
+}
+.clients .clients-bg .clients-carousel{
+    padding: 8rem 0;
+}
+/* End clients */
+
+/* Start footer */
+footer{
+    background-image: url("../Images/footer.jpg");
+    background-position: center bottom;
+    background-size: cover;
+}
+footer .footer-container{
+    padding: 5rem 0;
+    /* text-align: center; */
+}
+footer .footer-img img{
+    width: 40%;
+}
+footer .footer-content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer .footer-content img{
+    width: 35%;
+}
+footer .footer-content p{
+    margin: 1.2rem 0;
+}
+footer .footer-content .social-icons i{
+    margin-left: 1rem;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 575.98px) {
+    footer .footer-container{
+        text-align: center;
+    }
+    footer .footer-content img{
+        margin: 1.5rem auto 0;
+    }
+ }
+/* End footer */
+
+/***** Start Other Pages *****/
+
+/* General */
+.pg-title{
+    margin-right: 1.5rem;
+    position: relative;
+    padding-right: 1rem;
+    padding-top: 1.5rem;
+    font-size: 1.8rem;
+}
+.pg-title::before{
+    content: ' ';
+    width: 4.5px;
+    height: 2.5rem;
+    background-color: #3AADE6;
+    position: absolute;
+    right: 0;
+}
+@media (max-width: 575.98px) {
+    .pg-title{
+        font-size: 1.4rem;
+    }
+ }
+.nav-pagination{
+    margin: 1.5rem 0 3rem ;
+}
+.page-link:hover{
+    background-color: #3AADE6;
+    color: #fff;
+}
+/* Start our works Page*/
+.our-works-pg{
+    background-image: url("../Images/bg30-Ar1web.gif");
+    margin-top: 0;
+}
+/* End our works Page */
+
+/* Start Our articles Page */
+.articles-bg{
+    background-image: url("../Images/articles.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* End Our articles Page */
+
+/* Start article details Page */
+.article-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.article-details{
+    background-image: url("../Images/bg30-Ar1web.gif");
+    margin-top: 0;
+}
+.article-details-card{
+    box-shadow: 4px 4px 10px #888;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 1rem;
+    margin: 1.5rem auto 1.5rem;
+}
+.article-details-img{
+    border-radius: 2rem;
+    width: 60%;
+    padding: 2rem 3rem;
+    box-shadow: 3px 3px 8px #ccc;
+    margin: 2rem auto;
+}
+.article-text{
+    text-align: center;
+    line-height: 2.5;
+    padding: 0 2rem 2rem;
+}
+@media (max-width: 575.98px) {
+    .article-title{
+        font-size: 1.1rem;
+    }
+ }
+/* End article details Page */
+
+/* Start project Page */
+.project-img img{
+    width: 60%;
+}
+.project-details-bg{
+    background-image: url("../Images/details-bg.png");
+    background-size: cover;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+/* Start project gallery */
+.arrows i{
+    background-color: #233142;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.3rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.arrows i:hover{
+   opacity: 0.9;
+}
+/* Responsive Smooth Card Carousel */
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .card-carousel .my-card {
+    width: 22%;
+    position: relative;
+    z-index: 1;
+    -webkit-transform: scale(0.6) translateY(-2rem);
+    transform: scale(0.6) translateY(-2rem);
+    opacity: 0;
+    cursor: pointer;
+    pointer-events: none;
+    transition: 1s;
+  }
+  .card-carousel .my-card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100%;
+    bottom: -5rem;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  .card-carousel .my-card.active {
+    z-index: 3;
+    -webkit-transform: scale(1) translateY(0) translateX(0);
+    transform: scale(1) translateY(0) translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+    transition: 1s;
+  }
+  .card-carousel .my-card.prev, .card-carousel .my-card.next {
+    z-index: 2;
+    -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
+    transform: scale(0.8) translateY(-1rem) translateX(0);
+    opacity: 0.6;
+    pointer-events: auto;
+    transition: 1s;
+  }
+
+  .card-carousel .my-card:nth-child(0):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(1):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(2):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+  
+  .card-carousel .my-card:nth-child(3):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  } 
+  
+  .card-carousel .my-card:nth-child(4):before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+  }
+
+/* End project gallery */
+
+
+/* End project Page */
+
+/***** End Other Pages *****/
