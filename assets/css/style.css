@@ -29,7 +29,9 @@ h2::after{
     }
  }
 @media (max-width: 575.98px) {
-    overflow-x: hidden;
+   body{
+      overflow-x: hidden;
+    }
  }
 /* Owl Carousel */
 .owl-nav{
