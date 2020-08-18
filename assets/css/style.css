@@ -30,6 +30,11 @@ h2::after{
         left:43.5%;
     }
  }
+@media (max-width: 575.98px) {
+   body{
+      overflow-x: hidden;
+    }
+ }
 /* Owl Carousel */
 .owl-nav{
     text-align: center;
