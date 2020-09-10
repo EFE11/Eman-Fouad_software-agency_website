@@ -386,6 +386,9 @@ footer .footer-content .social-icons i{
 }
 
 /* Start project gallery */
+.arrows{
+    margin-bottom: 2rem;
+}
 .arrows i{
     background-color: #233142;
     color: #fff;
@@ -405,7 +408,7 @@ footer .footer-content .social-icons i{
     position: relative;
   }
   .card-carousel .my-card {
-    width: 22%;
+    width: 20%;
     position: relative;
     z-index: 1;
     -webkit-transform: scale(0.6) translateY(-2rem);
@@ -501,7 +504,14 @@ footer .footer-content .social-icons i{
     font-weight: 300;
     color: #fff;
   }
-
+  .card-carousel img{
+      max-width: 100%;
+  }
+  /* @media (max-width: 992px) { 
+    .project-gallery .my-card img{
+        width: 90%;
+    }
+} */
 /* End project gallery */
 
 
